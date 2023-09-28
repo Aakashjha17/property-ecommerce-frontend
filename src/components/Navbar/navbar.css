@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #9E9E9E;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.home {
+    margin-left: 50px;
+}
+
+/* Hover effect for Home */
+.home:hover {
+    color: #ff9822;
+    cursor: pointer;
+    text-decoration: underline; /* Underline the text on hover */
+}
+
+.logoimg {
+    width: 8%;
+}
+
+.add {
+    margin-left: 20px;
+}
+
+/* Hover effect for Add */
+.add:hover {
+    color: #ff9822;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login {
+    width: 134px;
+    height: 53px;
+    margin-top: 12px;
+    border-radius: 10px;
+    background-color: #B3E5FC;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+    transition: background-color 0.3s;
+}
+
+.login:hover {
+    background-color: #81D4FA;
+}
+
+.signup {
+    margin: 12px;
+    width: 134px;
+    height: 53px;
+    margin-top: 12px;
+    border-radius: 10px;
+    background-color: #E3F2FD;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+    transition: background-color 0.3s;
+}
+
+.signup:hover {
+    background-color: #BBDEFB;
+}

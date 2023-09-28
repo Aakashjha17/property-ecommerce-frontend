@@ -1,0 +1,15 @@
+.custom-col-span-4 {
+    grid-column: span 4;
+}
+
+.custom-sm-col-span-2 {
+    grid-column: span 2;
+}
+
+.custom-font-medium {
+    font-weight: 500;
+}
+
+.custom-text-sm {
+    font-size: 0.875rem; /* 14px (assuming the base font size is 16px) */
+}

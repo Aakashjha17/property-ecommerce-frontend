@@ -1,0 +1,37 @@
+.delete-button {
+    background-color: #ff5733;
+    color: #fff; 
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px; 
+    margin-top: 10px; /* Add space above the button */
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #337ab7; 
+    color: #fff; 
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+  
+.add-property-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .add-property-button:hover {
+    background-color: #0056b3;
+  }
+  

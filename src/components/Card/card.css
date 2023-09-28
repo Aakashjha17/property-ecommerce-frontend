@@ -1,0 +1,72 @@
+.Searchp{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+/* .card1{
+    display: flex;
+    display: flex;
+    margin: 89px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+} */
+.cl{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9E9E9E;
+    /* margin: 269px; */
+    /* padding-left: -13px; */
+    width: 90%;
+   padding: 10px;
+    border-radius: 20px;
+}
+.city{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -261px;
+    margin-top: 29px;
+}
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -105px;
+    margin-top: -32px;
+    font-size: 13px;
+}
+.btn2{
+    text-align: right;
+}
+
+.btn2{
+  width: 100px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  select:focus,
+input[type="date"]:focus {
+  border-color: #007bff; /* Change the border color when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow when focused */
+}
