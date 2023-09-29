@@ -3,12 +3,6 @@
     margin-top: 20px;
 }
 
-/* .card1{
-    display: flex;
-    display: flex;
-    margin: 89px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-} */
 .cl{
     display: flex;
     margin: auto;
@@ -69,4 +63,29 @@ select {
 input[type="date"]:focus {
   border-color: #007bff; /* Change the border color when focused */
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow when focused */
+}
+
+@media screen and (max-width: 768px) {
+  .Searchp {
+      margin-left: 2%;
+  }
+
+  .cl {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 95%;
+      margin: 20px auto;
+  }
+
+  .city, .location {
+      margin-left: 0;
+      justify-content: flex-start;
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  .btn2 {
+      width: 100%;
+      margin-top: 10px;
+  }
 }

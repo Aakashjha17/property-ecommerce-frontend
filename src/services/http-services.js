@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const instance = axios.create({
-    baseURL: 'http://localhost:4000/api/',
+    baseURL: 'https://property-ecommerce-backend.onrender.com/api/',
     timeout: 500000,
     headers: {
         Accept: 'application/json',
@@ -11,12 +11,11 @@ const instance = axios.create({
 });
 
 const formDatainstance = axios.create({
-    baseURL: 'http://localhost:4000/api/',
+    baseURL: 'https://property-ecommerce-backend.onrender.com/api/',
     timeout: 500000,
     headers: {
         Accept: 'application/json',
         'Content-Type': 'multipart/form-data',
-
     },
 });
 

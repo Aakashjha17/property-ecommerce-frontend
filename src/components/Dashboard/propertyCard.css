@@ -38,5 +38,22 @@
     border-radius: 6px;
   }
   
+  @media screen and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust columns for smaller screens */
+    }
+
+    .card1 {
+        padding: 15px; /* Decrease padding for smaller cards */
+    }
+
+    .card1 h3 {
+        font-size: 1rem; /* Decrease font size for headings on smaller screens */
+    }
+
+    .card1 p {
+        font-size: 0.9rem; /* Decrease font size for paragraphs on smaller screens */
+    }
+}
   /* Add any other custom styles as needed */
   
